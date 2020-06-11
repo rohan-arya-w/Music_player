@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "musicplayer"
+    }
+  },
+  "defaultProject": "musicplayer",
+  "cli": {
+    "analytics": "dfccbbd9-edf1-4ba7-8ae0-76d64270c19f"
+  }
 }
