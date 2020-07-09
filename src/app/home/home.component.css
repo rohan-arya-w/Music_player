@@ -1,0 +1,167 @@
+.margin-e > div {
+  margin: 10px;
+  border-radius: 29px;
+  background: #212121;
+  box-shadow: inset -5px 5px 3px #0d0d0d, 
+              inset 5px -5px 3px #353535;
+}
+
+.back {
+  background-color: black;
+  width: 50px;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 40px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #232323, #1e1e1e);
+  box-shadow: 9px 9px 18px #0d0d0d, -9px -9px 18px #353535;
+}
+
+.back:hover {
+  background-color: black;
+  width: 50px;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 40px;
+  border-radius: 50%;
+  background: #212121;
+  box-shadow: inset -9px 9px 18px #0d0d0d, inset 9px -9px 18px #353535;
+}
+
+.music {
+  width: 305px;
+  height: 385px;
+
+  border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  border: 0px solid #000000;
+  background: linear-gradient(225deg, #232323, #1e1e1e);
+  box-shadow: -5px 5px 10px #0d0d0d, 5px -5px 10px #353535;
+}
+
+.music > iframe {
+  border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  border: 0px solid #000000;
+}
+
+.play-btn {
+  width: 50px;
+  border-radius: 50%;
+  background: linear-gradient(225deg, #232323, #1e1e1e);
+  box-shadow: -5px 5px 10px #0d0d0d, 5px -5px 10px #353535;
+}
+
+.play-btn:hover {
+  width: 50px;
+  border-radius: 50%;
+  background: #212121;
+  box-shadow: inset -5px 5px 10px #0d0d0d, inset 5px -5px 10px #353535;
+}
+
+.formsss>div{
+    position: absolute;
+  margin-top: 150px;
+  
+}
+.formss > input {
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: #212121;
+  color: #e6e3e3;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #212121;
+  box-shadow: -5px 5px 10px #0d0d0d, 5px -5px 10px #353535;
+  font-family: "Righteous", cursive;
+  letter-spacing: .2em;
+}
+
+.formss > input:focus {
+  border-radius: 10px;
+  background-color: #212121;
+  
+  padding: 10px;
+  border: none;
+  background: #212121;
+  box-shadow: inset -5px 5px 10px #0d0d0d, inset 5px -5px 10px #353535;
+  outline: none;
+}
+
+@media screen and (max-width: 568px) {
+  .div-md {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 823px) {
+    .div-md-a {
+        position: absolute; top: 40px; left: 300px; border-radius: 10px;
+        background: #212121;
+        box-shadow:  -5px 5px 3px #0d0d0d, 
+                     5px -5px 3px #353535;; width: 55px; height: 55px;
+    }
+  }
+
+  @media screen and (min-width: 640px) {
+    .div-md-s {
+      display: none;
+    }
+  }
+
+
+  
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #212121; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #353535; 
+
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(136, 135, 135); 
+      }
+      ::-webkit-scrollbar-corner{
+        background: #212121;
+      }
+
+  .visual-play{
+      width: 550px; height: 200px; overflow:scroll;
+
+  }
+
+  
+  @media screen and (max-width: 640px) {
+    .visual-play-m {
+      width: 300px;
+    }
+  }
+
+  .lists-bg>li{
+      
+    background-color: #212121;
+  }
+
+  .lists-bg>li:hover{
+    color: #1e1e1e;
+  background-color: #838383;
+}
+
+.Playlist{
+    position: absolute;  border-radius: 10px;
+                                background: #212121;
+                                box-shadow:  5px 5px 4px #151515, 
+                                             -5px -5px 4px #2d2d2d; font-family: 'Righteous', cursive; color: rgb(155, 155, 155); padding: 5px;
+}
